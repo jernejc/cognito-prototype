@@ -1,0 +1,17 @@
+{
+    "projectName": "toriicognito",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "ember",
+        "config": {
+            "SourceDir": "app",
+            "DistributionDir": "dist",
+            "BuildCommand": "ember b",
+            "StartCommand": "ember s"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

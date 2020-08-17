@@ -1,0 +1,13 @@
+<h2>LOGIN PAGE</h2>
+<p>
+	<button {{action 'signInToCognito' 'Google'}}>
+		Sign in with <b>Google</b>
+	</button>
+</p>
+
+<p>
+	<form {{action 'signInToCognito' 'Email'}}>
+		{{input type="email" value=email placeholder="Enter e-mail" required=true}}
+		{{input type="submit" value="Sign in with Email"}}
+	</form>
+</p>

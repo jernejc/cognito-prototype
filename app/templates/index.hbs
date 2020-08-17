@@ -1,0 +1,7 @@
+{{outlet}}
+
+{{#if session.cognitoUser}}
+	You are signed in as <b>{{session.cognitoUser.attributes.email}}</b>
+{{else}}
+	No cognito user found.
+{{/if}}

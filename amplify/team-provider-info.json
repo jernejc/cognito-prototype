@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-toriicognito-dev-135942-authRole",
+            "UnauthRoleArn": "arn:aws:iam::711887248642:role/amplify-toriicognito-dev-135942-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::711887248642:role/amplify-toriicognito-dev-135942-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-toriicognito-dev-135942-deployment",
+            "UnauthRoleName": "amplify-toriicognito-dev-135942-unauthRole",
+            "StackName": "amplify-toriicognito-dev-135942",
+            "StackId": "arn:aws:cloudformation:us-east-2:711887248642:stack/amplify-toriicognito-dev-135942/293fe960-d25c-11ea-b697-020f5a4b9a82",
+            "AmplifyAppId": "d3cwtjpsc86x0s"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3cwtjpsc86x0s",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
